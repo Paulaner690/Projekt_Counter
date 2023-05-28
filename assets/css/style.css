@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background: url(../isabella-fischer-nBcOnMoP18g-unsplash.jpg) no-repeat center;
+    background-size: cover;
+}
+
+h1{
+    font-size: 7rem;
+    -webkit-text-stroke: 2.5px rgb(125, 34, 236);
+    color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    text-shadow: rgba(0, 0, 0, 0.359) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+h2{
+    font-size: 5rem;
+    color: rgb(69, 69, 69);
+    text-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin-bottom: 2rem;
+}
+
+button{
+    padding: 1rem;
+    width: 10rem;
+    border: none;
+    border-radius: 4px;
+    background-color: peru;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+button:hover{
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: rgb(125, 34, 236);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
